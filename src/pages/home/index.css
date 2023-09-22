@@ -1,0 +1,13 @@
+.form-signin {
+  max-width: 400px;
+  padding: 1rem;
+  color: white;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2; 
+}
+
+.form-input {
+  background-color: black;
+}
