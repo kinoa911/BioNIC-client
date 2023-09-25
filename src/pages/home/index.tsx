@@ -12,7 +12,7 @@ export const HomePage: React.FC = () => {
   const [username, setUserName] = useState<string>("")
 
   const register = async() => {
-    const challenge = await fetch('http://localhost:8000/request-register', {
+    const challenge = await fetch('http://localhost:8000/register-request/user', {
       method: 'POST',
       headers: {
         'content-type': 'Application/Json'
