@@ -86,7 +86,7 @@ export const HomePage: React.FC = () => {
     </div>
     <br />
     <div className="row">
-      <button id="btn1" className="btn btn-bd-primary w-50" onClick={() => login()}>
+      <button id="btn1" className="btn btn-bd-primary w-50" onClick={() => login()}>Sign In
         {/* {!disabled ? "Sign In" :
           <div className="d-flex justify-content-center">
             <div className="spinner-border" role="status">
